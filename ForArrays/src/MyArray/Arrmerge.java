@@ -20,7 +20,12 @@ public class Arrmerge {
 	}	
 	for (int k=0;k<c.length;k++)
 	{
-	System.out.println(c[k]);
+	System.out.print(c[k]);
 	}
 	}
+	public static void main(String[] args) {
+		Arrmerge ar = new Arrmerge();
+		ar.Merge();
+	}
+	
 	}
